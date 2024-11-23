@@ -26,7 +26,7 @@
 @font-face {
   font-family: YoungSerif-Regular;
   src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-regular);
   font-style: normal;
 }
 
@@ -61,11 +61,21 @@ body{
   background-color: var(--color-white);
   width: 900px;
   padding: 32px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .recipe-image img{
   max-width: 100%;
   height: auto;
+  border-radius: 18px;
+}
+
+.title h1{
+font-family: var(--font-family-title);
+
 }
 
 .attribution {
